@@ -63,7 +63,8 @@
   .chip:hover{border-color:#4a4a52;color:var(--text);}
 
   .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
-  .mblock{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:36px 24px;text-align:center;}
+  .mblock{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:36px 24px;text-align:center;transition:border-color .18s ease,transform .12s ease;}
+  .mblock:hover{border-color:#3d3d46;transform:translateY(-3px);}
   .m-val{font-size:32px;font-weight:700;color:var(--text);line-height:1.1;}
   .m-lbl{font-size:18px;font-weight:600;color:var(--gray);text-transform:uppercase;letter-spacing:3px;margin-top:16px;}
 
